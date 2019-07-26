@@ -23,8 +23,6 @@ public abstract class AbstractRestVerticleTest {
   static final String TENANT_ID = "diku";
   static Vertx vertx;
   static RequestSpecification spec;
-  private static String useExternalDatabase;
-
 
   @BeforeClass
   public static void setUpClass(final TestContext context) throws Exception {
