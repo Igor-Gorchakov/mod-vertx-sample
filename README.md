@@ -1,1 +1,1 @@
-Sample FOLIO project with RMB, REST API, JDBC connection, Spring DI, API tests
+Sample FOLIO project with REST API, Spring DI, RMB schemas, DB connection, API tests
