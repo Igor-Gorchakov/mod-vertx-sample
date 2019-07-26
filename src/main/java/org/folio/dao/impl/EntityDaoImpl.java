@@ -1,8 +1,10 @@
-package org.folio.dao;
+package org.folio.dao.impl;
 
 import io.vertx.core.Future;
 import io.vertx.core.logging.Logger;
 import io.vertx.core.logging.LoggerFactory;
+import org.folio.dao.EntityDao;
+import org.folio.dao.PostgresClientFactory;
 import org.folio.rest.jaxrs.model.Entity;
 import org.folio.rest.persist.Criteria.Criteria;
 import org.folio.rest.persist.Criteria.Criterion;

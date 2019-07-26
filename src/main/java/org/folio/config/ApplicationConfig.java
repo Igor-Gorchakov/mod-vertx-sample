@@ -5,7 +5,8 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = {
-  "org.folio.rest.impl",
+  "org.folio.rest",
   "org.folio.dao",
   "org.folio.service"})
-public class ApplicationConfig {}
+public class ApplicationConfig {
+}
