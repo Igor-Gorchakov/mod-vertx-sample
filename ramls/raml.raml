@@ -1,0 +1,34 @@
+#%RAML 1.0
+
+title: Vertx sample
+version: v3.0
+protocols: [ HTTP, HTTPS ]
+baseUri: http://localhost
+
+documentation:
+  - title: Sample module API
+    content: API for testing
+
+types:
+  entity: !include schemas/entity.json
+  entityCollection: !include schemas/entityCollection.json
+
+/testResource:
+  /{id}:
+    description: Get a list of entities
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              type: entity
+        400:
+          description: "Bad request"
+          body:
+            text/plain:
+              example: "Bad request"
+        500:
+          description: "Internal server error"
+          body:
+            text/plain:
+              example: "Internal server error"
