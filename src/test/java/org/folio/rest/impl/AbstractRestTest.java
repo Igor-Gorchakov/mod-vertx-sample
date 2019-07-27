@@ -18,7 +18,7 @@ import org.junit.BeforeClass;
 
 import java.util.UUID;
 
-public abstract class AbstractRestVerticleTest {
+public abstract class AbstractRestTest {
 
   static final String TENANT_ID = "diku";
   static Vertx vertx;

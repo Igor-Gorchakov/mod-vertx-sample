@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 import java.util.UUID;
 
 @RunWith(VertxUnitRunner.class)
-public class EntityApiTest extends AbstractRestVerticleTest {
+public class EntityApiTest extends AbstractRestTest {
 
   private static final String RESOURCE_PATH = "/testResource";
   private static final String TABLE_NAME = "entities";
